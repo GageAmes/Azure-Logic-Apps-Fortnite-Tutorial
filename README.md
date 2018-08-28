@@ -19,7 +19,7 @@ Logics Apps allow you to build and test your application entirely from the Azure
 
 ### Sign in to the Azure portal
 1. Go to the [Azure portal](https://portal.azure.com) and sign in with your Azure account credentials.
-    > See [Prerequisites](#Prerequisites) for sign up links if you don't have an account
+    > See [Prerequisites](#prerequisites) for sign up links if you don't have an account
 
 ### Create a Logic App to manage subscribers
 1. From the main Azure menu, choose **Create a resource** > **Web** > **Logic App**.
