@@ -25,6 +25,7 @@ Logics Apps allow you to build and test your application entirely from the Azure
 1. From the main Azure menu, choose **Create a resource** > **Web** > **Logic App**.
 1. Provide details about your Logic App as shown here. 
 After you're done, choose **Create**.
+
     | Property | Value | Description |
     |----------|-------|-------------|
     | **Name** | FortniteSubscriptionManager | The name for your Logic App | 
@@ -38,6 +39,7 @@ After you're done, choose **Create**.
 1. From the main Azure menu, choose **Create a resource** > **Web** > **Logic App**.
 1. Provide details about your Logic App as shown here. 
 After you're done, choose **Create**.
+
     | Property | Value | Description |
     |----------|-------|-------------|
     | **Name** | FortniteNotifier | The name for your Logic App | 
@@ -51,6 +53,7 @@ After you're done, choose **Create**.
 1. From the main Azure menu, choose **Create a resource** > **Storage** > **Storage account - blob, file, table, queue**.
 1. Provide details about your Storage Account as shown here. 
 After you're done, choose **Create**.
+
     | Property | Value | Description |
     |----------|-------|-------------|
     | **Name** | <*your-name*>fortnitedata | The name for your Storage Account | 
@@ -221,6 +224,7 @@ The **subscriptions** table will store a mapping between Fortnite player names a
 1. In the **Select** action, specify the properties to select from the table entities.
     1. Click inside the **From** box. The dynamic content dialog will appear. Choose **Get entities result List of Entities** from the **Dynamic content** tab.
     1. In the **Map** fields, enter the following mappings
+
         | Key | Value | Details |
         |-----|-------|---------|
         | **Player** | **Get entities result An entity Partition Key** | Choose this value from the **Dynamic content** tab |
