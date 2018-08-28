@@ -1,4 +1,4 @@
-# Subscribing to Fortnite Player Statistics using Azure Logic Apps
+# Subscribing to Fortnite Statistics using Azure Logic Apps
 #### Gage Ames (gage@gageames.com)
 A tutorial for using [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/) to monitor Fortnite statistics using the data provided by [Fortnite Tracker](https://fortnitetracker.com). The app sends an email notification to subscribers when a player's statistics change.
 
