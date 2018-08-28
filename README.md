@@ -1,6 +1,6 @@
 # Subscribing to Fortnite Player Statistics using Azure Logic Apps
 #### Gage Ames (gage@gageames.com)
-A tutorial for using [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/) to monitor Fortnite plater statistics using the data provided by [Fortnite Tracker](https://fortnitetracker.com). The app sends an email notification to subscribers when a player's statistics change.
+A tutorial for using [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/) to monitor Fortnite statistics using the data provided by [Fortnite Tracker](https://fortnitetracker.com). The app sends an email notification to subscribers when a player's statistics change.
 
 ## Technologies Used
 - [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/) - Manage subscriptions, monitor player statistics, and send email notifications to subscribers
@@ -152,7 +152,7 @@ Once the request is approved the Logic App will need to perform the requested ac
     1. Once the connection is created, choose **subscriptions** from the **Table** drop down.
     1. Click inside the **Partition Key** box. The dynamic content dialog will appear. Choose **player** from the **Dynamic content** tab under the **When a HTTP request is received** heading.
     1. Click inside the **Row Key** box. The dynamic content dialog will appear. Choose **email** from the **Dynamic content** tab under the **When a HTTP request is received** heading.
-    1. In the **Entity** box, enter the JSON template below.
+    1. In the **Entity** box, enter the JSON below.
         ```json
         {
           "Timestamp": null
