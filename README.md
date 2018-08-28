@@ -33,7 +33,6 @@ After you're done, choose **Create**.
     | **Resource group** | Create new > FortniteLogicAppSample | The name for the [Azure resource group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) used to organize related resources |
     | **Location** | East US | The region where to store your logic app information |
     | **Log Analytics** | Off | Keep the **Off** setting for diagnostic logging. |
-    |||| 
 
 ### Create a Logic App to monitor Fortnite player statistics
 1. From the main Azure menu, choose **Create a resource** > **Web** > **Logic App**.
@@ -47,7 +46,6 @@ After you're done, choose **Create**.
     | **Resource group** | Use existing > FortniteLogicAppSample | Use the same resource group as the logic app |
     | **Location** | East US | The region where to store your logic app information |
     | **Log Analytics** | Off | Keep the **Off** setting for diagnostic logging. |
-    |||| 
 
 ### Create a Storage Account
 1. From the main Azure menu, choose **Create a resource** > **Storage** > **Storage account - blob, file, table, queue**.
@@ -66,7 +64,6 @@ After you're done, choose **Create**.
     | **Subscription** | <*your-Azure-subscription-name*> | The name for your Azure subscription |
     | **Resource group** | Use existing > FortniteLogicAppSample | Use the same resource group as the logic app |
     | **Log Analytics** | Off | Keep the **Off** setting for diagnostic logging. |
-    ||||
 
 ### Create tables in the storage account
 Azure Table Storage will be used to persist data about subscribers and player statistics between executions of the Logic App.
@@ -229,7 +226,7 @@ The **subscriptions** table will store a mapping between Fortnite player names a
         |-----|-------|---------|
         | **Player** | **Get entities result An entity Partition Key** | Choose this value from the **Dynamic content** tab |
         | **Subscriber Email** | **Get entities result An entity Row Key** | Choose this value from the **Dynamic content** tab |
-        ||||
+
 1. Save the Logic App.
 
 ### Create a variable to store player statistics
