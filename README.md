@@ -31,7 +31,7 @@ After you're done, choose **Create**.
     | **Name** | FortniteSubscriptionManager | The name for your Logic App | 
     | **Subscription** | <*your-Azure-subscription-name*> | The name for your Azure subscription |
     | **Resource group** | Create new > FortniteLogicAppSample | The name for the [Azure resource group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) used to organize related resources |
-    | **Location** | East US | The region where to store your logic app information |
+    | **Location** | East US | The region where to store your Logic App information |
     | **Log Analytics** | Off | Keep the **Off** setting for diagnostic logging. |
 
 ### Create a Logic App to monitor Fortnite player statistics
@@ -43,8 +43,8 @@ After you're done, choose **Create**.
     |----------|-------|-------------|
     | **Name** | FortniteNotifier | The name for your Logic App | 
     | **Subscription** | <*your-Azure-subscription-name*> | The name for your Azure subscription |
-    | **Resource group** | Use existing > FortniteLogicAppSample | Use the same resource group as the logic app |
-    | **Location** | East US | The region where to store your logic app information |
+    | **Resource group** | Use existing > FortniteLogicAppSample | Use the same resource group as the Logic App |
+    | **Location** | East US | The region where to store your Logic App information |
     | **Log Analytics** | Off | Keep the **Off** setting for diagnostic logging. |
 
 ### Create a Storage Account
@@ -62,7 +62,7 @@ After you're done, choose **Create**.
     | **Performance** | Standard | Standard storage accounts are backed by magnetic drives and provide the lowest cost per GB |
     | **Secure transfer required** | Enabled | There's no reason not to use HTTPS |
     | **Subscription** | <*your-Azure-subscription-name*> | The name for your Azure subscription |
-    | **Resource group** | Use existing > FortniteLogicAppSample | Use the same resource group as the logic app |
+    | **Resource group** | Use existing > FortniteLogicAppSample | Use the same resource group as the Logic App |
     | **Log Analytics** | Off | Keep the **Off** setting for diagnostic logging. |
 
 ### Create tables in the storage account
@@ -190,7 +190,7 @@ Congratulations! The Logic App should now be ready for use. Let's test it out!
 1. Optionally, use [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) to browse to the <*your-name*>fortnitedata Storage Account and verify an entity was added to the **subscriptions** table.
 
 ## Configure the FortniteNotifier Logic App
-This logic app will periodically query statistics from a [Fortnite Tracker](https://fortnitetracker.com) API based on the subscriptions in the Azure Table and inform subscribers of changes in these statistics via email.
+This Logic App will periodically query statistics from a [Fortnite Tracker](https://fortnitetracker.com) API based on the subscriptions in the Azure Table and inform subscribers of changes in these statistics via email.
 
 ![Logic App Designer view of the final FortniteNotifier Logic App](doc/images/notifier-logic-app-designer.png)
 
