@@ -185,8 +185,8 @@ Congratulations! The Logic App should now be ready for use. Let's test it out!
         curl --request POST --data '{"action":"subscribe","email":"example@example.com","player":"ValkyraeXD"}' --header "Content-Type: application/json" "the-url-of-your-logic-app"
         ```
 1. Close the Logic Apps Designer using the **X** in the top right corner of the blade.
-1. Choose  **Refresh**  at the top of the FortniteNotifier Logic App overview blade.
-1. Under the  **Run history** section of the FortniteNotifier Logic App overview blade, find the most recent run of the Logic App. Click its row to view a visualization of the executed workflow.
+1. Choose  **Refresh**  at the top of the Logic App overview blade.
+1. Under the  **Run history** section of the Logic App overview blade, find the most recent run of the Logic App. Click its row to view a visualization of the executed workflow.
 1. Optionally, use [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) to browse to the <*your-name*>fortnitedata Storage Account and verify an entity was added to the **subscriptions** table.
 
 ## Configure the FortniteNotifier Logic App
@@ -368,8 +368,8 @@ We're finished integrating through the subscriptions and sending a notification 
 Congratulations! The Logic App should now be ready for use. Let's test it out!
 1. Save any outstanding changes made to the Logic App using the **Save** button at the top of the Logic Apps Designer.
 1. Close the Logic Apps Designer using the **X** in the top right corner of the blade.
-1. If you previously disabled the Logic App while creating it, click the **Enable** button at the top of the FortniteNotifier Logic App overview blade.
-1. Once the Logic App is enabled, choose  **Run Trigger** > **Recurrence**  at the top of the FortniteNotifier Logic App overview blade.
+1. If you previously disabled the Logic App while creating it, click the **Enable** button at the top of the Logic App overview blade.
+1. Once the Logic App is enabled, choose  **Run Trigger** > **Recurrence**  at the top of the Logic App overview blade.
     > Alternatively, wait for the recurrence trigger to fire as scheduled.
-1. Choose  **Refresh**  at the top of the FortniteNotifier Logic App overview blade.
-1. Under the  **Run history** section of the FortniteNotifier Logic App overview blade, find the most recent run of the Logic App. Click its row to view a visualization of the executed workflow.
+1. Choose  **Refresh**  at the top of the Logic App overview blade.
+1. Under the  **Run history** section of the Logic App overview blade, find the most recent run of the Logic App. Click its row to view a visualization of the executed workflow.
