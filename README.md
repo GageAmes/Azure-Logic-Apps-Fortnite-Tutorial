@@ -360,7 +360,7 @@ We're finished integrating through the subscriptions and sending a notification 
         ```
         1. After populating the field, highlight the `<kills>` portion of the field's value and delete it.
         1. With your cursor at the position where `<kills>` used to be, click the **Expression** tab in the **Dynamic content** dialog.
-        1. In the expression box, enter `item()['kills']` and choose **OK**. This will insert the value of the **Player** property into the subject at the correct position.
+        1. In the expression box, enter `item()['kills']` and choose **OK**. This will update the number of kills in the table entity.
 1. Save the Logic App.
 > Note that a minor optimization would be to only update the entity if the value of the statistic changed. One way to achieve this would be to add an additional `previousKills` property to the object appended to the **Players to Update** array.
 
