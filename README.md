@@ -329,7 +329,7 @@ In this case, we'll monitor the number of kills the player has. We want to check
         1. In the expression box, enter `item()['Player']` and choose **OK**. This will insert the value of the **Player** property into the subject at the correct position.
         1. Now highlight the `<kills>` portion of the field's value and delete it.
         1. With your cursor at the position where `<kills>` used to be, click the **Expression** tab in the **Dynamic content** dialog.
-        1. In the expression box, enter `sub(body('Parse_JSON')['kills'], body('Get_entity')['value'])` and choose **OK**. This will insert the value of the **Player** property into the subject at the correct position.
+        1. In the expression box, enter `sub(body('Parse_JSON')['kills'], body('Get_entity')['value'])` and choose **OK**. This will insert the value of the number of new kills into the subject at the correct position.
         > **OPTIONAL** To be grammatically correct, we should make the word "kills" singular if the number of kills is 1. If you like, replace the word "kills" with this expression: `if(equals(sub(body('Parse_JSON')['kills'], body('Get_entity')['value']), 1), 'kill', 'kills')`.
     1. In the **Body** box, enter any value you like. If you can't think of anything, just enter a space.
 1. Save the Logic App.
